@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A23CEB021E5D0FBD008C6C23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB011E5D0FBD008C6C23 /* main.m */; };
+		A23CEB051E5D0FBD008C6C23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB041E5D0FBD008C6C23 /* AppDelegate.m */; };
+		A23CEB0B1E5D0FBD008C6C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23CEB091E5D0FBD008C6C23 /* Main.storyboard */; };
+		A23CEB0D1E5D0FBD008C6C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23CEB0C1E5D0FBD008C6C23 /* Assets.xcassets */; };
+		A23CEB101E5D0FBD008C6C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23CEB0E1E5D0FBD008C6C23 /* LaunchScreen.storyboard */; };
+		A23CEB1B1E5D0FBD008C6C23 /* MeiTuanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB1A1E5D0FBD008C6C23 /* MeiTuanDemoTests.m */; };
+		A23CEB261E5D0FBE008C6C23 /* MeiTuanDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB251E5D0FBE008C6C23 /* MeiTuanDemoUITests.m */; };
+		A23CEB361E5D1058008C6C23 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB351E5D1058008C6C23 /* BaseViewController.m */; };
+		A23CEB401E5D1083008C6C23 /* WineShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB391E5D1083008C6C23 /* WineShopViewController.m */; };
+		A23CEB411E5D1083008C6C23 /* WinesTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB3B1E5D1083008C6C23 /* WinesTypesViewController.m */; };
+		A23CEB421E5D1083008C6C23 /* WinesEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB3D1E5D1083008C6C23 /* WinesEvaluationViewController.m */; };
+		A23CEB431E5D1083008C6C23 /* StoreInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB3F1E5D1083008C6C23 /* StoreInfoViewController.m */; };
+		A23CEB4F1E5D109C008C6C23 /* StoreHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB461E5D109C008C6C23 /* StoreHeaderView.m */; };
+		A23CEB501E5D109C008C6C23 /* GGCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB481E5D109C008C6C23 /* GGCategoryView.m */; };
+		A23CEB511E5D109C008C6C23 /* WineDescribeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB4A1E5D109C008C6C23 /* WineDescribeCell.m */; };
+		A23CEB521E5D109C008C6C23 /* WineCategroyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB4C1E5D109C008C6C23 /* WineCategroyCell.m */; };
+		A23CEB531E5D109C008C6C23 /* WineCartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB4E1E5D109C008C6C23 /* WineCartView.m */; };
+		A23CEB571E5D115D008C6C23 /* UIButton+Extersion.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB561E5D115D008C6C23 /* UIButton+Extersion.m */; };
+		A23CEB5B1E5D1201008C6C23 /* UILabel+Extersion.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB5A1E5D1201008C6C23 /* UILabel+Extersion.m */; };
+		A23CEB5E1E5D1212008C6C23 /* UIViewController+Extersion.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB5D1E5D1212008C6C23 /* UIViewController+Extersion.m */; };
+		A23CEB611E5D1222008C6C23 /* UIView+Extersion.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB601E5D1222008C6C23 /* UIView+Extersion.m */; };
+		A23CEB651E5D123B008C6C23 /* PurchaseCarAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB641E5D123B008C6C23 /* PurchaseCarAnimationTool.m */; };
+		A23CEB6A1E5D127C008C6C23 /* UIImage+Extersion.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB671E5D127C008C6C23 /* UIImage+Extersion.m */; };
+		A23CEB6B1E5D127C008C6C23 /* UIImageView+Extersion.m in Sources */ = {isa = PBXBuildFile; fileRef = A23CEB691E5D127C008C6C23 /* UIImageView+Extersion.m */; };
+		B639133ED1E239FE303762F3 /* libPods-MeiTuanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2603DA742C1438A8977982 /* libPods-MeiTuanDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A23CEB171E5D0FBD008C6C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23CEAF51E5D0FBD008C6C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23CEAFC1E5D0FBD008C6C23;
+			remoteInfo = MeiTuanDemo;
+		};
+		A23CEB221E5D0FBE008C6C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23CEAF51E5D0FBD008C6C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23CEAFC1E5D0FBD008C6C23;
+			remoteInfo = MeiTuanDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BD60CDFE3495A2E2E20A5F1 /* Pods-MeiTuanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTuanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTuanDemo/Pods-MeiTuanDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A23CEAFD1E5D0FBD008C6C23 /* MeiTuanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTuanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23CEB011E5D0FBD008C6C23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A23CEB031E5D0FBD008C6C23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A23CEB041E5D0FBD008C6C23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A23CEB0A1E5D0FBD008C6C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A23CEB0C1E5D0FBD008C6C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A23CEB0F1E5D0FBD008C6C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A23CEB111E5D0FBD008C6C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23CEB161E5D0FBD008C6C23 /* MeiTuanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiTuanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23CEB1A1E5D0FBD008C6C23 /* MeiTuanDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiTuanDemoTests.m; sourceTree = "<group>"; };
+		A23CEB1C1E5D0FBD008C6C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23CEB211E5D0FBE008C6C23 /* MeiTuanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiTuanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23CEB251E5D0FBE008C6C23 /* MeiTuanDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiTuanDemoUITests.m; sourceTree = "<group>"; };
+		A23CEB271E5D0FBE008C6C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23CEB341E5D1058008C6C23 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A23CEB351E5D1058008C6C23 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A23CEB381E5D1083008C6C23 /* WineShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineShopViewController.h; sourceTree = "<group>"; };
+		A23CEB391E5D1083008C6C23 /* WineShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineShopViewController.m; sourceTree = "<group>"; };
+		A23CEB3A1E5D1083008C6C23 /* WinesTypesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinesTypesViewController.h; sourceTree = "<group>"; };
+		A23CEB3B1E5D1083008C6C23 /* WinesTypesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinesTypesViewController.m; sourceTree = "<group>"; };
+		A23CEB3C1E5D1083008C6C23 /* WinesEvaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinesEvaluationViewController.h; sourceTree = "<group>"; };
+		A23CEB3D1E5D1083008C6C23 /* WinesEvaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinesEvaluationViewController.m; sourceTree = "<group>"; };
+		A23CEB3E1E5D1083008C6C23 /* StoreInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreInfoViewController.h; sourceTree = "<group>"; };
+		A23CEB3F1E5D1083008C6C23 /* StoreInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreInfoViewController.m; sourceTree = "<group>"; };
+		A23CEB451E5D109C008C6C23 /* StoreHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreHeaderView.h; sourceTree = "<group>"; };
+		A23CEB461E5D109C008C6C23 /* StoreHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreHeaderView.m; sourceTree = "<group>"; };
+		A23CEB471E5D109C008C6C23 /* GGCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCategoryView.h; sourceTree = "<group>"; };
+		A23CEB481E5D109C008C6C23 /* GGCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCategoryView.m; sourceTree = "<group>"; };
+		A23CEB491E5D109C008C6C23 /* WineDescribeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineDescribeCell.h; sourceTree = "<group>"; };
+		A23CEB4A1E5D109C008C6C23 /* WineDescribeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineDescribeCell.m; sourceTree = "<group>"; };
+		A23CEB4B1E5D109C008C6C23 /* WineCategroyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineCategroyCell.h; sourceTree = "<group>"; };
+		A23CEB4C1E5D109C008C6C23 /* WineCategroyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineCategroyCell.m; sourceTree = "<group>"; };
+		A23CEB4D1E5D109C008C6C23 /* WineCartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineCartView.h; sourceTree = "<group>"; };
+		A23CEB4E1E5D109C008C6C23 /* WineCartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineCartView.m; sourceTree = "<group>"; };
+		A23CEB551E5D115D008C6C23 /* UIButton+Extersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extersion.h"; sourceTree = "<group>"; };
+		A23CEB561E5D115D008C6C23 /* UIButton+Extersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extersion.m"; sourceTree = "<group>"; };
+		A23CEB581E5D1185008C6C23 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A23CEB591E5D1201008C6C23 /* UILabel+Extersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extersion.h"; sourceTree = "<group>"; };
+		A23CEB5A1E5D1201008C6C23 /* UILabel+Extersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extersion.m"; sourceTree = "<group>"; };
+		A23CEB5C1E5D1212008C6C23 /* UIViewController+Extersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extersion.h"; sourceTree = "<group>"; };
+		A23CEB5D1E5D1212008C6C23 /* UIViewController+Extersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extersion.m"; sourceTree = "<group>"; };
+		A23CEB5F1E5D1222008C6C23 /* UIView+Extersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extersion.h"; sourceTree = "<group>"; };
+		A23CEB601E5D1222008C6C23 /* UIView+Extersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extersion.m"; sourceTree = "<group>"; };
+		A23CEB631E5D123B008C6C23 /* PurchaseCarAnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseCarAnimationTool.h; sourceTree = "<group>"; };
+		A23CEB641E5D123B008C6C23 /* PurchaseCarAnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseCarAnimationTool.m; sourceTree = "<group>"; };
+		A23CEB661E5D127C008C6C23 /* UIImage+Extersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extersion.h"; sourceTree = "<group>"; };
+		A23CEB671E5D127C008C6C23 /* UIImage+Extersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extersion.m"; sourceTree = "<group>"; };
+		A23CEB681E5D127C008C6C23 /* UIImageView+Extersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extersion.h"; sourceTree = "<group>"; };
+		A23CEB691E5D127C008C6C23 /* UIImageView+Extersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extersion.m"; sourceTree = "<group>"; };
+		D769CE5F4A4357C9C800C2E0 /* Pods-MeiTuanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTuanDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTuanDemo/Pods-MeiTuanDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2603DA742C1438A8977982 /* libPods-MeiTuanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeiTuanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23CEAFA1E5D0FBD008C6C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B639133ED1E239FE303762F3 /* libPods-MeiTuanDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23CEB131E5D0FBD008C6C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23CEB1E1E5D0FBE008C6C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92865CFA9A783B488BE818A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2603DA742C1438A8977982 /* libPods-MeiTuanDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A23CEAF41E5D0FBD008C6C23 = {
+			isa = PBXGroup;
+			children = (
+				A23CEB581E5D1185008C6C23 /* PrefixHeader.pch */,
+				A23CEAFF1E5D0FBD008C6C23 /* MeiTuanDemo */,
+				A23CEB191E5D0FBD008C6C23 /* MeiTuanDemoTests */,
+				A23CEB241E5D0FBE008C6C23 /* MeiTuanDemoUITests */,
+				A23CEAFE1E5D0FBD008C6C23 /* Products */,
+				E50C5BF62754C968D230EAE8 /* Pods */,
+				92865CFA9A783B488BE818A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A23CEAFE1E5D0FBD008C6C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23CEAFD1E5D0FBD008C6C23 /* MeiTuanDemo.app */,
+				A23CEB161E5D0FBD008C6C23 /* MeiTuanDemoTests.xctest */,
+				A23CEB211E5D0FBE008C6C23 /* MeiTuanDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A23CEAFF1E5D0FBD008C6C23 /* MeiTuanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A23CEB331E5D1039008C6C23 /* BaseViewController */,
+				A23CEB371E5D1060008C6C23 /* ShopViewController */,
+				A23CEB441E5D108B008C6C23 /* Views */,
+				A23CEB541E5D113A008C6C23 /* Category */,
+				A23CEB621E5D122A008C6C23 /* Tools */,
+				A23CEB031E5D0FBD008C6C23 /* AppDelegate.h */,
+				A23CEB041E5D0FBD008C6C23 /* AppDelegate.m */,
+				A23CEB091E5D0FBD008C6C23 /* Main.storyboard */,
+				A23CEB0C1E5D0FBD008C6C23 /* Assets.xcassets */,
+				A23CEB0E1E5D0FBD008C6C23 /* LaunchScreen.storyboard */,
+				A23CEB111E5D0FBD008C6C23 /* Info.plist */,
+				A23CEB001E5D0FBD008C6C23 /* Supporting Files */,
+			);
+			path = MeiTuanDemo;
+			sourceTree = "<group>";
+		};
+		A23CEB001E5D0FBD008C6C23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A23CEB011E5D0FBD008C6C23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A23CEB191E5D0FBD008C6C23 /* MeiTuanDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A23CEB1A1E5D0FBD008C6C23 /* MeiTuanDemoTests.m */,
+				A23CEB1C1E5D0FBD008C6C23 /* Info.plist */,
+			);
+			path = MeiTuanDemoTests;
+			sourceTree = "<group>";
+		};
+		A23CEB241E5D0FBE008C6C23 /* MeiTuanDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A23CEB251E5D0FBE008C6C23 /* MeiTuanDemoUITests.m */,
+				A23CEB271E5D0FBE008C6C23 /* Info.plist */,
+			);
+			path = MeiTuanDemoUITests;
+			sourceTree = "<group>";
+		};
+		A23CEB331E5D1039008C6C23 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A23CEB341E5D1058008C6C23 /* BaseViewController.h */,
+				A23CEB351E5D1058008C6C23 /* BaseViewController.m */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		A23CEB371E5D1060008C6C23 /* ShopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A23CEB381E5D1083008C6C23 /* WineShopViewController.h */,
+				A23CEB391E5D1083008C6C23 /* WineShopViewController.m */,
+				A23CEB3A1E5D1083008C6C23 /* WinesTypesViewController.h */,
+				A23CEB3B1E5D1083008C6C23 /* WinesTypesViewController.m */,
+				A23CEB3C1E5D1083008C6C23 /* WinesEvaluationViewController.h */,
+				A23CEB3D1E5D1083008C6C23 /* WinesEvaluationViewController.m */,
+				A23CEB3E1E5D1083008C6C23 /* StoreInfoViewController.h */,
+				A23CEB3F1E5D1083008C6C23 /* StoreInfoViewController.m */,
+			);
+			name = ShopViewController;
+			sourceTree = "<group>";
+		};
+		A23CEB441E5D108B008C6C23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A23CEB451E5D109C008C6C23 /* StoreHeaderView.h */,
+				A23CEB461E5D109C008C6C23 /* StoreHeaderView.m */,
+				A23CEB471E5D109C008C6C23 /* GGCategoryView.h */,
+				A23CEB481E5D109C008C6C23 /* GGCategoryView.m */,
+				A23CEB491E5D109C008C6C23 /* WineDescribeCell.h */,
+				A23CEB4A1E5D109C008C6C23 /* WineDescribeCell.m */,
+				A23CEB4B1E5D109C008C6C23 /* WineCategroyCell.h */,
+				A23CEB4C1E5D109C008C6C23 /* WineCategroyCell.m */,
+				A23CEB4D1E5D109C008C6C23 /* WineCartView.h */,
+				A23CEB4E1E5D109C008C6C23 /* WineCartView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A23CEB541E5D113A008C6C23 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A23CEB551E5D115D008C6C23 /* UIButton+Extersion.h */,
+				A23CEB561E5D115D008C6C23 /* UIButton+Extersion.m */,
+				A23CEB591E5D1201008C6C23 /* UILabel+Extersion.h */,
+				A23CEB5A1E5D1201008C6C23 /* UILabel+Extersion.m */,
+				A23CEB5C1E5D1212008C6C23 /* UIViewController+Extersion.h */,
+				A23CEB5D1E5D1212008C6C23 /* UIViewController+Extersion.m */,
+				A23CEB5F1E5D1222008C6C23 /* UIView+Extersion.h */,
+				A23CEB601E5D1222008C6C23 /* UIView+Extersion.m */,
+				A23CEB661E5D127C008C6C23 /* UIImage+Extersion.h */,
+				A23CEB671E5D127C008C6C23 /* UIImage+Extersion.m */,
+				A23CEB681E5D127C008C6C23 /* UIImageView+Extersion.h */,
+				A23CEB691E5D127C008C6C23 /* UIImageView+Extersion.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		A23CEB621E5D122A008C6C23 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A23CEB631E5D123B008C6C23 /* PurchaseCarAnimationTool.h */,
+				A23CEB641E5D123B008C6C23 /* PurchaseCarAnimationTool.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		E50C5BF62754C968D230EAE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D769CE5F4A4357C9C800C2E0 /* Pods-MeiTuanDemo.debug.xcconfig */,
+				1BD60CDFE3495A2E2E20A5F1 /* Pods-MeiTuanDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23CEAFC1E5D0FBD008C6C23 /* MeiTuanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23CEB2A1E5D0FBE008C6C23 /* Build configuration list for PBXNativeTarget "MeiTuanDemo" */;
+			buildPhases = (
+				30F85AA7339B4D23FF5FC116 /* [CP] Check Pods Manifest.lock */,
+				A23CEAF91E5D0FBD008C6C23 /* Sources */,
+				A23CEAFA1E5D0FBD008C6C23 /* Frameworks */,
+				A23CEAFB1E5D0FBD008C6C23 /* Resources */,
+				B473A80C46F7B419FC9B7933 /* [CP] Embed Pods Frameworks */,
+				2224D38051F03628F7350900 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeiTuanDemo;
+			productName = MeiTuanDemo;
+			productReference = A23CEAFD1E5D0FBD008C6C23 /* MeiTuanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A23CEB151E5D0FBD008C6C23 /* MeiTuanDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23CEB2D1E5D0FBE008C6C23 /* Build configuration list for PBXNativeTarget "MeiTuanDemoTests" */;
+			buildPhases = (
+				A23CEB121E5D0FBD008C6C23 /* Sources */,
+				A23CEB131E5D0FBD008C6C23 /* Frameworks */,
+				A23CEB141E5D0FBD008C6C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23CEB181E5D0FBD008C6C23 /* PBXTargetDependency */,
+			);
+			name = MeiTuanDemoTests;
+			productName = MeiTuanDemoTests;
+			productReference = A23CEB161E5D0FBD008C6C23 /* MeiTuanDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A23CEB201E5D0FBE008C6C23 /* MeiTuanDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23CEB301E5D0FBE008C6C23 /* Build configuration list for PBXNativeTarget "MeiTuanDemoUITests" */;
+			buildPhases = (
+				A23CEB1D1E5D0FBE008C6C23 /* Sources */,
+				A23CEB1E1E5D0FBE008C6C23 /* Frameworks */,
+				A23CEB1F1E5D0FBE008C6C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23CEB231E5D0FBE008C6C23 /* PBXTargetDependency */,
+			);
+			name = MeiTuanDemoUITests;
+			productName = MeiTuanDemoUITests;
+			productReference = A23CEB211E5D0FBE008C6C23 /* MeiTuanDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A23CEAF51E5D0FBD008C6C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mr.Gu;
+				TargetAttributes = {
+					A23CEAFC1E5D0FBD008C6C23 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 648NW53WP3;
+						ProvisioningStyle = Automatic;
+					};
+					A23CEB151E5D0FBD008C6C23 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 648NW53WP3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A23CEAFC1E5D0FBD008C6C23;
+					};
+					A23CEB201E5D0FBE008C6C23 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 648NW53WP3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A23CEAFC1E5D0FBD008C6C23;
+					};
+				};
+			};
+			buildConfigurationList = A23CEAF81E5D0FBD008C6C23 /* Build configuration list for PBXProject "MeiTuanDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A23CEAF41E5D0FBD008C6C23;
+			productRefGroup = A23CEAFE1E5D0FBD008C6C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A23CEAFC1E5D0FBD008C6C23 /* MeiTuanDemo */,
+				A23CEB151E5D0FBD008C6C23 /* MeiTuanDemoTests */,
+				A23CEB201E5D0FBE008C6C23 /* MeiTuanDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23CEAFB1E5D0FBD008C6C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23CEB101E5D0FBD008C6C23 /* LaunchScreen.storyboard in Resources */,
+				A23CEB0D1E5D0FBD008C6C23 /* Assets.xcassets in Resources */,
+				A23CEB0B1E5D0FBD008C6C23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23CEB141E5D0FBD008C6C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23CEB1F1E5D0FBE008C6C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2224D38051F03628F7350900 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeiTuanDemo/Pods-MeiTuanDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30F85AA7339B4D23FF5FC116 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B473A80C46F7B419FC9B7933 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeiTuanDemo/Pods-MeiTuanDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23CEAF91E5D0FBD008C6C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23CEB5E1E5D1212008C6C23 /* UIViewController+Extersion.m in Sources */,
+				A23CEB501E5D109C008C6C23 /* GGCategoryView.m in Sources */,
+				A23CEB571E5D115D008C6C23 /* UIButton+Extersion.m in Sources */,
+				A23CEB521E5D109C008C6C23 /* WineCategroyCell.m in Sources */,
+				A23CEB421E5D1083008C6C23 /* WinesEvaluationViewController.m in Sources */,
+				A23CEB511E5D109C008C6C23 /* WineDescribeCell.m in Sources */,
+				A23CEB361E5D1058008C6C23 /* BaseViewController.m in Sources */,
+				A23CEB051E5D0FBD008C6C23 /* AppDelegate.m in Sources */,
+				A23CEB431E5D1083008C6C23 /* StoreInfoViewController.m in Sources */,
+				A23CEB5B1E5D1201008C6C23 /* UILabel+Extersion.m in Sources */,
+				A23CEB401E5D1083008C6C23 /* WineShopViewController.m in Sources */,
+				A23CEB021E5D0FBD008C6C23 /* main.m in Sources */,
+				A23CEB411E5D1083008C6C23 /* WinesTypesViewController.m in Sources */,
+				A23CEB6B1E5D127C008C6C23 /* UIImageView+Extersion.m in Sources */,
+				A23CEB611E5D1222008C6C23 /* UIView+Extersion.m in Sources */,
+				A23CEB6A1E5D127C008C6C23 /* UIImage+Extersion.m in Sources */,
+				A23CEB4F1E5D109C008C6C23 /* StoreHeaderView.m in Sources */,
+				A23CEB651E5D123B008C6C23 /* PurchaseCarAnimationTool.m in Sources */,
+				A23CEB531E5D109C008C6C23 /* WineCartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23CEB121E5D0FBD008C6C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23CEB1B1E5D0FBD008C6C23 /* MeiTuanDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23CEB1D1E5D0FBE008C6C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23CEB261E5D0FBE008C6C23 /* MeiTuanDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A23CEB181E5D0FBD008C6C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23CEAFC1E5D0FBD008C6C23 /* MeiTuanDemo */;
+			targetProxy = A23CEB171E5D0FBD008C6C23 /* PBXContainerItemProxy */;
+		};
+		A23CEB231E5D0FBE008C6C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23CEAFC1E5D0FBD008C6C23 /* MeiTuanDemo */;
+			targetProxy = A23CEB221E5D0FBE008C6C23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A23CEB091E5D0FBD008C6C23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23CEB0A1E5D0FBD008C6C23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A23CEB0E1E5D0FBD008C6C23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23CEB0F1E5D0FBD008C6C23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A23CEB281E5D0FBE008C6C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A23CEB291E5D0FBE008C6C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A23CEB2B1E5D0FBE008C6C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D769CE5F4A4357C9C800C2E0 /* Pods-MeiTuanDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 648NW53WP3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = MeiTuanDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guxuchun.MeiTuanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A23CEB2C1E5D0FBE008C6C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD60CDFE3495A2E2E20A5F1 /* Pods-MeiTuanDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 648NW53WP3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = MeiTuanDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guxuchun.MeiTuanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A23CEB2E1E5D0FBE008C6C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 648NW53WP3;
+				INFOPLIST_FILE = MeiTuanDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guxuchun.MeiTuanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeiTuanDemo.app/MeiTuanDemo";
+			};
+			name = Debug;
+		};
+		A23CEB2F1E5D0FBE008C6C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 648NW53WP3;
+				INFOPLIST_FILE = MeiTuanDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guxuchun.MeiTuanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeiTuanDemo.app/MeiTuanDemo";
+			};
+			name = Release;
+		};
+		A23CEB311E5D0FBE008C6C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 648NW53WP3;
+				INFOPLIST_FILE = MeiTuanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guxuchun.MeiTuanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeiTuanDemo;
+			};
+			name = Debug;
+		};
+		A23CEB321E5D0FBE008C6C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 648NW53WP3;
+				INFOPLIST_FILE = MeiTuanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guxuchun.MeiTuanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeiTuanDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23CEAF81E5D0FBD008C6C23 /* Build configuration list for PBXProject "MeiTuanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23CEB281E5D0FBE008C6C23 /* Debug */,
+				A23CEB291E5D0FBE008C6C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23CEB2A1E5D0FBE008C6C23 /* Build configuration list for PBXNativeTarget "MeiTuanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23CEB2B1E5D0FBE008C6C23 /* Debug */,
+				A23CEB2C1E5D0FBE008C6C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23CEB2D1E5D0FBE008C6C23 /* Build configuration list for PBXNativeTarget "MeiTuanDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23CEB2E1E5D0FBE008C6C23 /* Debug */,
+				A23CEB2F1E5D0FBE008C6C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23CEB301E5D0FBE008C6C23 /* Build configuration list for PBXNativeTarget "MeiTuanDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23CEB311E5D0FBE008C6C23 /* Debug */,
+				A23CEB321E5D0FBE008C6C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A23CEAF51E5D0FBD008C6C23 /* Project object */;
+}

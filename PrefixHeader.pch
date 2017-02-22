@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  MeiTuanDemo
+//
+//  Created by Mr.Gu on 17/2/22.
+//  Copyright © 2017年 Mr.Gu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define RGBACOLOR(r,g,b,a)  [UIColor colorWithRed:(r / 255.0) green:(g / 255.0) blue:(b / 255.0) alpha:a]
+
+#define kWhiteColor         [UIColor whiteColor]
+#define kRedColor           [UIColor redColor]
+#define kLightGrayColor     [UIColor lightGrayColor]
+#define kDarkTextColor      [UIColor darkTextColor]
+#define kBlackColor         [UIColor blackColor]
+#define kDarkGrayColor      [UIColor darkGrayColor]
+#define kGrayColor          [UIColor grayColor]
+#define kBlueColor          [UIColor blueColor]
+#define kOrangeColor        [UIColor orangeColor]
+
+
+#import "UIViewController+Extersion.h"
+#import "UIView+Extersion.h"
+
+#endif /* PrefixHeader_pch */
